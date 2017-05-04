@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lsl.funnel.MainActivity">
+    <com.lsl.funnel.FunnelView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:topColor="@color/top"
+        app:getPercent="50%"
+        app:changePercent="30%"
+        app:usePercent="100%"
+        app:provideCount="850"
+        app:receiveCount="360"
+        app:useCount="360"/>
+</RelativeLayout>
